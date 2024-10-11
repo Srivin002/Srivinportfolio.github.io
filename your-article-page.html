@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srivin K - My Data Science Journey</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your stylesheet -->
+</head>
+<body>
+    <header class="main-header">
+        <h1>My Data Science Journey</h1>
+    </header>
+    
+    <section class="content">
+        <div class="story-container">
+            <h2>About Me</h2>
+            <p>Hi, I’m Srivin K, a Data Scientist from Kochi, Kerala, with a deep passion for data and technology. My journey into the world of data science began with a Bachelor’s degree in BCom Computer Applications from Kannur University. But my real dive into data came when I pursued specialized training in Big Data, Data Science, and Data Analytics from Luminar Technolab, Kochi.</p>
+
+            <p>During this time, I discovered the power of Python for analyzing and manipulating data, which completely fascinated me. I spent countless hours working on real-world projects that allowed me to apply machine learning algorithms and create predictive models. Every dataset felt like a puzzle waiting to be solved, and each solution I found was a step closer to making data-driven decisions easier for others.</p>
+
+            <p>I became proficient in tools like SQL for database management, and Tableau and Power BI for creating powerful visualizations that transform raw data into meaningful insights. I realized that telling stories through data was my calling, and it’s something I’ve worked hard to master. Whether it’s visualizing trends, identifying patterns, or optimizing processes, I find joy in helping businesses see beyond the numbers.</p>
+
+            <p>As a Data Scientist, I’m excited about the opportunity to use my expertise to help unlock the full potential of data for businesses and make data-driven strategies a reality. I look forward to exploring new opportunities where I can further sharpen my skills and make a real impact in the field of data science.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Srivin K. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // JavaScript for pop transition effect
+        document.querySelectorAll('.button').forEach(button => {
+            button.addEventListener('click', function (e) {
+                e.preventDefault(); // Prevent default anchor click behavior
+                const targetUrl = button.getAttribute('href');
+
+                // Add pop class for animation
+                button.classList.add('pop');
+
+                // After the animation ends, navigate to the URL
+                setTimeout(() => {
+                    window.location.href = targetUrl;
+                }, 300); // Match this timeout with the CSS transition duration
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background Styling */
+body {
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+.main-header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
+}
+
+.main-header h1 {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+/* Story Content Styling */
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 30px 15px;
+}
+
+.story-container {
+    background-color: rgba(255, 255, 255, 0.9); /* White semi-transparent background */
+    padding: 40px;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #333;
+}
+
+.story-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.story-container p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+/* Button Pop Animation */
+.button {
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
+.button.pop {
+    transform: scale(1.1); /* Scale up on click */
+}
